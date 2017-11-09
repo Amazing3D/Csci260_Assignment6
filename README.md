@@ -29,7 +29,8 @@ from the user.Don’t allow the user to check out a book that isn’t available.
 5. Check in a book. Show all the books. Ask for an index number, 1 through the
 number of books. The index numbers will be used to “hide” the libraryID number
 from the user. Don’t allow the user to check in a book that isn’t checked out.
-6. The specifics of the tables are as follows:
+
+The specifics of the tables are as follows:
 ```
 Database:
 Table: library
@@ -49,4 +50,3 @@ Desktop just to make it easy to find. Select f17db_library and click on Ok and t
 Import. To confirm it worked, click on Schemas at the bottom of the menu to the left.
 Click on the refresh icon, and should see f17db (the name of the database, don’t
 confuse it with the name of the sql file) along with the previously installed databases.
- 
